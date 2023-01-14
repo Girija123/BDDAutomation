@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LeanBDDAutomationFramework" />
+        <module name="BDDAutomation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BDDAutomation" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
